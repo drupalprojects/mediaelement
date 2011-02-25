@@ -1,5 +1,4 @@
 <?php
-// $Id$
 
 /**
  * Menu form callback; Display the MediaElement admin form.
