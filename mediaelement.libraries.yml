@@ -1,0 +1,13 @@
+mediaelement:
+  version: 2.7.2
+  js:
+    //cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.9/mediaelement-and-player.min.js: { type: external, minified: true }
+    js/mediaelement.bundle.js: {}
+  css:
+    component:
+      //cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.9/mediaelementplayer.min.css: { type: external, minified: true }
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings

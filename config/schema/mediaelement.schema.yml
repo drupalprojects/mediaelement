@@ -1,0 +1,25 @@
+mediaelement.formatter.media:
+  type: mapping
+  label: 'MediaElement.js format settings'
+  mapping:
+    download_link:
+      type: boolean
+      label: 'Download Link'
+    download_text:
+      type: string
+      label: 'Download Text'
+
+field.formatter.settings.mediaelement_file_video:
+  type: mediaelement.formatter.media
+  label: 'MediaElement.js Video formatter settings'
+  mapping:
+    poster_image_field:
+      type: string
+      label: 'Poster Image Field'
+    poster_image_style:
+      type: string
+      label: 'Poster Image Style'
+
+field.formatter.settings.mediaelement_file_audio:
+  type: mediaelement.formatter.media
+  label: 'MediaElement.js Audio formatter settings'
